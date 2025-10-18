@@ -1,0 +1,99 @@
+/* Color Palette
+# - 08CB00
+# - 367A25
+# - 000000
+# - EEEEEE
+*/
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: "Roboto", "BBH Sans Bogle", sans-serif;
+    background: black;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #08CB00;
+}
+
+header h1, header h2 {
+	margin: 0;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+h2.title {
+	font: 1.8em, "BBH Sans Bogle", sans-serif;
+}
+
+.content-wrap {
+	max-width: 950px;
+	margin: auto;
+	padding: 50px;
+	overflow: hidden;
+}
+
+.profile-img {
+	border-radius:50%;
+}
+
+p {
+    color: white;
+}
+
+ul li{
+    color: white;
+}
+
+header, footer {
+    background: #367A25;
+    text-align: center;
+}
+
+.contact-info a {
+	padding: 10px; 
+	display: inline-block;
+}
+
+header h1, header h2, footer h2 {
+    color: white;
+}
+
+.column-narrow {
+	width: 30%; 
+	float: left; 
+	padding-right: 3%; 
+	min-height: 175px;
+}
+
+.column-wide {
+	width: 70%; 
+	float: left; 
+	min-height: 225px;
+}
+
+section.Work {
+	font-family: "Roboto", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 100;
+	font-style: normal;
+	font-variation-settings: "wdth" 100;
+}
+
+section.Education {
+  	font-family: "Roboto", sans-serif;
+  	font-optical-sizing: auto;
+ 	font-weight: 100;
+  	font-style: normal;
+  	font-variation-settings: "wdth" 100;
+	background-image: url(images/Blue.jpg); 
+}
