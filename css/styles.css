@@ -67,6 +67,9 @@ header, footer {
     background: #367A25;
     text-align: center;
 }
+header {
+	top: 50px;
+}
 
 .contact-info a {
 	padding: 10px; 
