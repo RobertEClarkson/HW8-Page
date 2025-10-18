@@ -20,14 +20,15 @@ body {
 }
 
 nav {
-	position: sticky;
+	position: fixed;
 	top: 0;
 	background: #EEEEEE;
-	z-index: 1000;
 }
 
 nav a {
 	font-family: "BBH Sans Bogle", sans-serif;
+	text-decoration: none;
+	color: #08CB00;
 }
 
 h1, h2, h3, h4, h5, h6 {
