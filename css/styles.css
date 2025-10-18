@@ -17,6 +17,7 @@ body {
 	font-family: "Roboto", "BBH Sans Bogle", sans-serif;
     background: black;
 	margin: 0;
+	margin-top: 60px;
 }
 
 nav {
@@ -66,9 +67,6 @@ ul li{
 header, footer {
     background: #367A25;
     text-align: center;
-}
-header {
-	top: 50px;
 }
 
 .contact-info a {
