@@ -19,6 +19,15 @@ body {
 	margin: 0;
 }
 
+nav {
+	position: fixed;
+	background: #EEEEEE;
+}
+
+nav a {
+	font-family: "BBH Sans Bogle", sans-serif;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: #08CB00;
 }
@@ -90,10 +99,10 @@ section.Work {
 }
 
 section.Education {
+	background-image: url(images/Blue.jpg) no-repeat fixed; 
   	font-family: "Roboto", sans-serif;
   	font-optical-sizing: auto;
  	font-weight: 100;
   	font-style: normal;
   	font-variation-settings: "wdth" 100;
-	background-image: url(images/Blue.jpg); 
 }
