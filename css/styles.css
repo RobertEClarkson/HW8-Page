@@ -22,12 +22,17 @@ body {
 nav {
 	position: fixed;
 	top: 0;
+	margin-bottom: 5px;
+	text-align: center;
 	background: #EEEEEE;
 }
 
 nav a {
 	font-family: "BBH Sans Bogle", sans-serif;
 	text-decoration: none;
+	padding: 10px;
+	display: inline-block;
+	width: 25%;
 	color: #08CB00;
 }
 
