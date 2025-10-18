@@ -19,13 +19,11 @@ body {
 	margin: 0;
 }
 
-body header, body main {
-	margin-top:100px;
-}
-
 nav {
-	position: fixed;
+	position: sticky;
+	top: 0;
 	background: #EEEEEE;
+	z-index: 1000;
 }
 
 nav a {
